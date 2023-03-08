@@ -1284,7 +1284,7 @@ header .navbar-brand img {
     font-size: 70px;
     font-weight: 700;
     color: #ffffff;
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -1306,7 +1306,7 @@ header .navbar-brand img {
     font-size: 48px;
     font-weight: 700;
     margin: 15px 0;
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
     font-family: 'Montserrat', sans-serif;
 }
 
