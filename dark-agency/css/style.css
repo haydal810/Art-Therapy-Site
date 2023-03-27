@@ -447,7 +447,7 @@ header .inner-header{
     right: 0;
     top: 0;
     z-index: 111;
-    background-color: #23262d;
+    background-color: #eef3fa 
 }
 
 header .inner-header.stand {
@@ -477,7 +477,7 @@ header .navbar-brand img {
 .sidemenu_btn span {
     height: 2px;
     width: 100%;
-    background: #ffffff;
+    background: #f176a0;
     display: block;
     margin: auto;
     transition: .5s ease;
@@ -501,7 +501,7 @@ header .navbar-brand img {
     left: 0;
     top: 0;
     bottom: 0;
-    background-color: #ec3737   ;
+    background-color: #14b3b9;
     z-index: 2032;
     height: 100%;
     -webkit-transform: translate3d(-100%, 0, 0);
