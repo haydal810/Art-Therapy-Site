@@ -266,7 +266,7 @@ a:focus {color: inherit}
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-color: #ec3737;
+    background-color: #14b3b9;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -276,17 +276,17 @@ a:focus {color: inherit}
 }
 
 .dot-3 {
-    background-color: #ec3737;
+    background-color: #988bcf;
     animation: dot-3-move 2s ease infinite, index 6s ease infinite;
 }
 
 .dot-2 {
-    background-color: #ec3737;
+    background-color: #52c676;
     animation: dot-2-move 2s ease infinite, index 6s -4s ease infinite;
 }
 
 .dot-1 {
-    background-color: #ec3737;
+    background-color: #f176a0;
     animation: dot-1-move 2s ease infinite, index 6s -2s ease infinite;
 }
 
@@ -459,7 +459,7 @@ header .navbar-brand{
 }
 
 header .navbar-brand img {
-    max-width: 80px;
+    max-width: 200px;
 }
 
 /*side open btn*/
@@ -1026,8 +1026,8 @@ header .navbar-brand img {
 }
 
 .contact-sec .contact-inner{
-    background: #d43030;
-    border: solid 10px #d43030;
+    background: #988bcf;
+    border: solid 10px #988bcf;
     padding: 80px;
 }
 
@@ -1159,7 +1159,7 @@ header .navbar-brand img {
     right: 15px;
     border-radius: 50%;
     color: #202020;
-    background-color: #fec107;
+    background-color: #52c676;
     z-index: 4;
     width: 40px;
     text-align: center;
@@ -1818,7 +1818,7 @@ header .navbar-brand img {
 
     /* Nav-Bar */
     header .navbar-brand img{
-        max-width: 70%;
+        max-width: 50%;
         margin: auto;
     }
     header .btn-main {
@@ -1950,7 +1950,7 @@ header .navbar-brand img {
         font-size: 12px;
     }
     .navbar-nav .nav-link {
-        font-size: 30px;
+        font-size: 25px;
     }
     header .inner-header {
         padding: 15px 20px;
