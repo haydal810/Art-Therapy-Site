@@ -452,6 +452,7 @@ header .inner-header{
 
 header .inner-header.stand {
     position: relative;
+    padding-left: 25px;
 }
 
 header .navbar-brand{
@@ -695,7 +696,7 @@ header .navbar-brand img {
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-size: 60px;
+    font-size: 30px;
     color: #ffffff;
     font-weight: 700;
     text-transform: lowercase;
@@ -1317,7 +1318,13 @@ header .navbar-brand img {
     opacity: .7;
     font-family: 'Roboto' , sans-serif;
 }
-
+.standalone-area .stand-img-des .para_text{
+    font-size: 16px;
+    margin: 0 auto;
+    color: #ffffff;
+    opacity: .7;
+    font-family: 'Roboto' , sans-serif;
+}
 .page-title{
     background:url("../img/standalone.jpg");
     position:relative;
@@ -1398,7 +1405,7 @@ header .navbar-brand img {
 }
 
 .footer-alone{
-    padding-bottom: 7.5rem;
+    padding-bottom: 3rem;
 }
 
 .footer-alone .footer-social ul{
@@ -1437,6 +1444,7 @@ header .navbar-brand img {
 
 .footer-alone .footer-social li:nth-last-child(1) a{
     margin-right: 0;
+    font-size: 25px;
 }
 
 .footer-alone .footer-social li a span{
@@ -1446,7 +1454,7 @@ header .navbar-brand img {
     bottom: 100%;
     top: 100%;
     z-index: 1;
-    background: #d43030;
+    background: #f176a0;
     border-radius: 50%;
     transition: .3s ease;
 }
@@ -1539,7 +1547,7 @@ header .navbar-brand img {
 
 @media (min-width: 1200px) and (max-width: 1366px) {
     .navbar-nav .nav-link {
-        font-size: 42px;
+        font-size: 30px;
     }
     .heading {
         font-size: 54px;
@@ -1580,7 +1588,7 @@ header .navbar-brand img {
         height: auto;
     }
     .navbar-nav .nav-link {
-        font-size: 46px;
+        font-size: 30px;
     }
     .side-menu {
         width: 65%;
@@ -1630,7 +1638,7 @@ header .navbar-brand img {
         padding: 3.5rem 4rem;
     }
     .navbar-nav .nav-link {
-        font-size: 50px;
+        font-size: 30px;
     }
     header .header-appear .sidemenu_btn {
         position: relative;
@@ -1826,7 +1834,7 @@ header .navbar-brand img {
         font-size: 13px;
     }
     .navbar-nav .nav-link {
-        font-size: 37px;
+        font-size: 30px;
     }
     .copywrite {
         padding: 4px 0 0 0;
