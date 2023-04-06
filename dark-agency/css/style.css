@@ -1826,7 +1826,8 @@ header .navbar-brand img {
 
     /* Nav-Bar */
     header .navbar-brand img{
-        max-width: 50%;
+        /* max-width: 50%; */
+        max-width: 35%; /* David edit */
         margin: auto;
     }
     header .btn-main {
