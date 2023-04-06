@@ -228,7 +228,7 @@ a:focus {color: inherit}
 }
 
 .padding-top-half{
-    padding-top: 80px;
+    padding-top: 125px;
 }
 
 .padding-bottom-half{
@@ -1290,7 +1290,7 @@ header .navbar-brand img {
 }
 
 .standalone-detail .para_text{
-    text-align: center;
+    text-align: justify;
     color: #ffffff;
     margin: 0 auto;
     font-size: 16px;
@@ -1312,6 +1312,7 @@ header .navbar-brand img {
 }
 
 .standalone-area .stand-img-des .para_text{
+    text-align: justify;
     font-size: 16px;
     margin: 0 auto;
     color: #ffffff;
@@ -1319,6 +1320,7 @@ header .navbar-brand img {
     font-family: 'Roboto' , sans-serif;
 }
 .standalone-area .stand-img-des .para_text{
+    text-align: justify;
     font-size: 16px;
     margin: 0 auto;
     color: #ffffff;
@@ -1797,6 +1799,7 @@ header .navbar-brand img {
         margin-bottom: 5rem;
     }
     .para_text {
+        text-align: justify;
         font-size: 18px;
     }
     .author-avatar {
