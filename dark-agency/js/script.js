@@ -212,3 +212,29 @@ var wow = new WOW(
 );
     wow.init();
 });
+
+
+/* ===================================
+     The Web Lab - Custom Scripts
+======================================*/
+
+const btn = document.getElementById('contact_btn');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Sending...';
+
+   const serviceID = 'default_service';
+   const templateID = 'the_web_lab_templateID';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Sent!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
