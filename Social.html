@@ -29,7 +29,7 @@
     <link href="dark-agency/css/custom.css" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target=".side-nav-menu" data-offset="400">
+<body>
 
     <!-- Start Preloader -->
     <div class="preloader">
@@ -50,26 +50,27 @@
     </div>
     <!-- End Preloader -->
 
-    <!-- Start Header -->
-    <header id="home">
-        <div class="inner-header">
+    <!-- Start Header (Menu) -->
+    <header>
+        <div class="inner-header stand">
             <div class="">
                 <div class="row no-gutters">
-                    <div class="col-4 col-lg-4 d-flex align-items-center">
+                    <div class="col-10 col-lg-10 d-flex justify-content-left">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="dark-agency\img\logo v3.0.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="col-2 col-lg-2 d-flex align-items-center">
                         <a href="javascript:void(0)" class="sidemenu_btn link" id="sidemenu_toggle">
                             <span></span>
                             <span></span>
                             <span></span>
                         </a>
                     </div>
-                    <div class="col-4 col-lg-4 d-flex justify-content-center">
-                        <a class="navbar-brand" href="index-dark-agency.html">
-                            <img src="dark-agency/img/logo.png" alt="logo">
-                        </a>
-                    </div>
-                    <div class="col-4 col-lg-4 d-flex justify-content-end align-items-center">
-                        <a href="#contact-sec" class="scroll btn btn-main rounded-pill">Get a Quote</a>
-                    </div>
+
+                    <!-- <div class="col-4 col-lg-4 d-flex justify-content-end align-items-center">
+                        <a href="otherpages.html#contact-sec" class="btn btn-main rounded-pill">Get Started</a>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -83,26 +84,32 @@
                         <div class="col-12 col-lg-8 offset-lg-2 nav-icon">
                             <nav class="navbar navbar-nav">
                                 <div class="side-nav-menu">
-                                    <a class="nav-link home active anim-text-white" href="index.html#home">Home</a>
-                                    <a class="nav-link scroll anim-text-white" href="#services-sec">About</a>
-                                    <a class="nav-link scroll anim-text-white" href="#portfolio-sec">Portfolio</a>
-                                    <a class="nav-link scroll anim-text-white" href="#testimonial-sec">Reviews</a>
-                                    <a class="nav-link scroll anim-text-white" href="#contact-sec">Contact
+                                    <a class="nav-link home active anim-text-white" href="index.html#Home_EMRT">Home</a>
+                                    <a class="nav-link anim-text-white" href="index.html#About_EMAT">About</a>
+                                    <a class="nav-link anim-text-white" href="index.html#WhatIsArtTherapy_EMAT">What is
+                                        Art
+                                        Therapy ?</a>
+
+                                    <a class="nav-link anim-text-white" href="index.html#Contact_EMAT">Contact
                                         <span></span><span></span><span></span></a>
                                     <span class="menu-line link"><i aria-hidden="true">/</i></span>
                                 </div>
                             </nav>
                         </div>
-                        <div class="side-menu-footer">
+                        <!-- <div class="side-menu-footer">
                             <div class="social-icons">
-                                <!-- <span><a href="#" class="fb"><i class="fab fa-facebook-f"></i></a></span> -->
-                                <span><a href="https://www.instagram.com/eveleenmurphyarttherapy/?hl=en" target="_blank" class="insta"><i class="fab fa-instagram"></i></a></span>
+
+                                <span><a href="#" class="fb"><i class="fab fa-facebook-f"></i></a></span>
+                            <span><a href="#" class="twit"><i class="fab fa-twitter"></i></a></span>
+                            <span><a href="#" class="in"><i class="fab fa-linkedin-in"></i></a></span>
+                                <span><a href="https://www.instagram.com/eveleenmurphyarttherapy/?hl=en" target="_blank"
+                                        class="insta"><i class="fab fa-instagram"></i></a></span>
+
                             </div>
                             <p id="copyright" class="copywrite text-right">
                                 <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-                                Eveleen Murphy Art Therapy
-                            </p>
-                        </div>
+                                © Eveleen Murphy Art Therapy</p>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -111,280 +118,90 @@
     </header>
     <!-- End Header -->
 
-    <!-- Start Slider -->
-    <section class="main">
-        <div class="container-fluid">
-            <div class="row no-gutters">
-                <div class="col-12 col-lg-3 align-items-center justify-content-end nav-icon d-none d-lg-flex">
-                    <!-- <nav class="navbar navbar-nav">
-                        <div class="side-nav-menu ml-auto wow slideInLeft" data-wow-delay=".5s">
-                            <a class="nav-link home active anim-text-white" href="#Home_EMRT">Home</a>
-                            <a class="nav-link scroll anim-text-white" href="#services-sec">About</a>
-                            <a class="nav-link scroll anim-text-white" href="#portfolio-sec">Portfolio</a>
-                            <a class="nav-link scroll anim-text-white" href="#testimonial-sec">Reviews</a>
-                            <a class="nav-link scroll anim-text-white" href="#contact-sec">Contact
-                                <span></span><span></span><span></span></a>
-                            <span class="menu-line link"><i aria-hidden="true">/</i></span>
+
+
+    <!-- Start Inner Content - ABOUT -->
+    <section class="standalone" id="#">
+        <!--content-->
+        <div class="blog-content">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-12">
+                        <!-- START HEADING SECTION -->
+                        <div class="standalone-detail">
+                            <div class="row no-gutters">
+                                <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2  text-center wow slideInUp"
+                                    data-wow-duration="2s">
+                                    <!-- <p class="sub-heading text-center text-yellow">Most flexible one page</p> -->
+                                    <h1 class="heading text-white">Social Media</h1>
+                                </div>
+                            </div>
                         </div>
-                    </nav> -->
-                    <div class="sidenav-bottom">
-                        <div class="social-icons">
-                            <!-- <span><a href="#" class="fb"><i class="fab fa-facebook-f"></i></a></span>
-                            <span><a href="#" class="twit"><i class="fab fa-twitter"></i></a></span>
-                            <span><a href="#" class="in"><i class="fab fa-linkedin-in"></i></a></span> -->
-                            <span><a href="https://www.instagram.com/eveleenmurphyarttherapy/?hl=en" target="_blank" class="insta"><i class="fab fa-instagram"></i></a></span>
+
+                        <div class="standalone-area">
+                            <!-- First-Row ----About-->
+                            <div class="row standalone-row align-items-center no-gutters">
+                                <!-- <div class="col-lg-4">
+                                    <div class="blog-image wow fadeInLeft img-list">
+                                        <div class="image-hover"><img
+                                                src="dark-agency\img\Eveleen Murphy Art Therapy.JPG" alt="image"></div>
+                                    </div>
+                                </div> -->
+                                <!-- What is About -->
+                                <div class="col-lg-12 col-md-12 col-sm-12 stand-img-des">
+                                    <div class="">
+                                        <!-- <p class="sub-heading text-center text-yellow">Most flexible one page</p> -->
+                                        <!-- <h2 class="heading-text text-white">What is Art Therapy?</h2> -->
+                                        <!-- <p class="para_text">TEST</p> -->
+                                        <div class="">
+                                            <iframe src="https://www.instagram.com/eveleenmurphyarttherapy/embed" width="1000"
+                                                height="1000" frameborder="0" scrolling="yes"
+                                                allowtransparency="true"></iframe>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <p id="copyright" class="copywrite text-right">
-                            <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-                            Eveleen Murphy Art Therapy
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-9 img-area">
-                    <div class="slider-carousel owl-carousel owl-theme wow slideInRight" data-wow-delay=".5s">
-                        <!-- Slide-1 -->
-                        <div class="slider-img position-relative item">
-                            <div class="bg-overlay bg-black opacity-2"></div>
-                            <img src="dark-agency/img/banner.jpg" alt="slider-img">
-                        </div>
-                        <!-- Slide-2 -->
-                        <div class="slider-img position-relative item">
-                            <div class="bg-overlay bg-black opacity-2"></div>
-                            <img src="dark-agency/img/banner-2.jpg" alt="slider-img">
-                        </div>
-                        <!-- Slide-3 -->
-                        <div class="slider-img position-relative item">
-                            <div class="bg-overlay bg-black opacity-2"></div>
-                            <img src="dark-agency/img/banner-3.jpg" alt="slider-img">
-                        </div>
+                        <!-- END HEADING SECTION -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End Slider -->
+    <!-- End Inner Content -->
 
-    <!-- Start Services -->
-    <section class="services-sec padding-top padding-bottom-half" id="services-sec">
+    <!-- Start Footer -->
+    <footer class="footer-alone">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 col-lg-6">
-                    <div class="heading-area">
-                        <h4 class="heading wow slideInLeft">creative team in market.</h4>
+                <!--Social-->
+                <div class="col-12">
+                    <div class="footer-social text-center">
+                        <ul class="list-unstyled">
+                            <!-- <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-facebook-f"></i><span></span></a></li>
+                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-twitter"></i><span></span></a></li>
+                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-google-plus-g"></i><span></span></a></li>
+                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i aria-hidden="true" class="fab fa-linkedin-in"></i><span></span></a></li> -->
+                            <li><a class="wow fadeInUp" href="https://www.instagram.com/eveleenmurphyarttherapy/?hl=en"
+                                    target="_blank"><i aria-hidden="true" class="fab fa-instagram"></i><span></span></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
-                    <div class="image-holder wow slideInRight">
-                        <img src="dark-agency/img/service-img.jpg" alt="service-img">
-                    </div>
-                </div>
-                <div class="col-12 padding-top-half">
-                    <ul class="services-boxes">
-                        <li class="service-card left wow slideInLeft">
-                            <div class="icon-holder"><i class="lni lni-bulb"></i></div>
-                            <p class="text">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem
-                                Ipsum has been the industry’s standard dummy.</p>
-                        </li>
-                        <li class="service-card right d-block text-center wow slideInRight">
-                            <div class="icon-holder"><i class="lni lni-briefcase"></i></div>
-                            <p class="text">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem
-                                Ipsum has been the industry’s standard dummy.</p>
-                        </li>
-                        <li class="service-card left icon-right text-center text-lg-right wow slideInLeft">
-                            <p class="text order-2 order-lg-1">Lorem ipsum is simply dummy text of the printing and
-                                typesetting. Lorem Ipsum has been the industry’s standard dummy.</p>
-                            <div class="icon-holder order-1 order-lg-2"><i class="lni lni-heart"></i></div>
-                        </li>
-                    </ul>
+                <!--Text-->
+                <div class="col-12 text-center mt-3">
+                    <p id="copyright" class="">
+                        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                        © Eveleen Murphy Art Therapy<br>This Responsive Website was built by <a
+                            href="https://www.theweblab.ie/" target="_blank"> The Web Lab</a>.
+                    </p>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- End Services -->
-
-    <!-- Start Portfolio -->
-    <section class="portfolio-sec padding-top-half padding-bottom-half" id="portfolio-sec">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-lg-3">
-                    <div class="heading-area long-area">
-                        <h4 class="heading wow slideInLeft">latest creative work</h4>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-9 position-relative">
-                    <div class="portfolio-carousel owl-carousel owl-theme wow slideInRight">
-                        <!-- Item-1 -->
-                        <div class="item">
-                            <div class="image-holder">
-                                <img src="dark-agency/img/portfolio-img-1.jpg" alt="portfolio-img">
-                            </div>
-                            <div class="work-detail row no-gutters">
-                                <div class="col-12 col-md-6 col-lg-8 text-center text-md-left mb-3 mb-lg-0">
-                                    <h4 class="work-heading">Lorem Ispum</h4>
-                                    <p class="text">Lorem ipsum is simply dummy text of the printing</p>
-                                </div>
-                                <div
-                                    class="col-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center justify-content-md-end">
-                                    <a href="dark-agency/standalone.html" class="work-btn btn-main rounded-pill">Launch
-                                        Website</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Item-2 -->
-                        <div class="item">
-                            <div class="image-holder">
-                                <img src="dark-agency/img/portfolio-img-2.jpg" alt="portfolio-img">
-                            </div>
-                            <div class="work-detail row no-gutters">
-                                <div class="col-12 col-md-6 col-lg-8 text-center text-md-left mb-3 mb-lg-0">
-                                    <h4 class="work-heading">Lorem Ispum</h4>
-                                    <p class="text">Lorem ipsum is simply dummy text of the printing</p>
-                                </div>
-                                <div
-                                    class="col-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center justify-content-md-end">
-                                    <a href="dark-agency/standalone.html" class="work-btn btn-main rounded-pill">Launch
-                                        Website</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Item-3 -->
-                        <div class="item">
-                            <div class="image-holder">
-                                <img src="dark-agency/img/portfolio-img-3.jpg" alt="portfolio-img">
-                            </div>
-                            <div class="work-detail row no-gutters">
-                                <div class="col-12 col-md-6 col-lg-8 text-center text-md-left mb-3 mb-lg-0">
-                                    <h4 class="work-heading">Lorem Ispum</h4>
-                                    <p class="text">Lorem ipsum is simply dummy text of the printing</p>
-                                </div>
-                                <div
-                                    class="col-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center justify-content-md-end">
-                                    <a href="dark-agency/standalone.html" class="work-btn btn-main rounded-pill">Launch
-                                        Website</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="work-navigation">
-                        <a href="javascript:void(0);" class="portfolio-left-arr"><i
-                                class="lni lni-chevron-left"></i></a>
-                        <a href="javascript:void(0);" class="portfolio-right-arr"><i
-                                class="lni lni-chevron-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Portfolio -->
-
-    <!-- Start Testimonials -->
-    <section class="testimonial-sec padding-top padding-bottom" id="testimonial-sec">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-0">
-                    <div class="heading-area">
-                        <h4 class="heading wow slideInLeft">happy customers</h4>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-12 position-relative">
-                    <div class="image-holder wow slideInRight">
-                        <img src="dark-agency/img/testimonial-1.jpg" alt="test1-img">
-                    </div>
-                    <div class="review-carousel owl-carousel owl-theme">
-                        <!-- Item-1 -->
-                        <div class="item">
-                            <div class="row padding-top align-items-center">
-                                <div class="col-md-8">
-                                    <div class="review-detail position-relative">
-                                        <i class="fas fa-quote-left quote-icon-left"></i>
-                                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                                            vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum
-                                            commodo, sem magna laoreet tellus, eu euismod dolor enim et mi. In at tempor
-                                            purus. </p>
-                                        <i class="fas fa-quote-right quote-icon-right"></i>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="user-detail">
-                                        <h4 class="user-name">David William</h4>
-                                        <p class="user-loc">Newyork City</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Item-2 -->
-                        <div class="item">
-                            <div class="row padding-top align-items-center">
-                                <div class="col-md-8">
-                                    <div class="review-detail position-relative">
-                                        <i class="fas fa-quote-left quote-icon-left"></i>
-                                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                                            vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum
-                                            commodo, sem magna laoreet tellus, eu euismod dolor enim et mi. In at tempor
-                                            purus. </p>
-                                        <i class="fas fa-quote-right quote-icon-right"></i>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="user-detail">
-                                        <h4 class="user-name">Harry Potter</h4>
-                                        <p class="user-loc">Newyork City</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Testimonials -->
-
-    <!-- Start Contact -->
-    <!-- <section class="contact-sec padding-top-half padding-bottom" id="contact-sec">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-lg-3">
-                    <div class="heading-area long-area">
-                        <h4 class="heading wow slideInLeft">Contact Me</h4>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-9 position-relative">
-                    <div class="contact-inner">
-                        <div class="contact-details wow fadeInUp">
-                            <ul>
-                                <li><i class="far fa-paper-plane opacity-5"></i><a
-                                        href="mailto:eveleen@eveleenmurphyarttherapy.ie">eveleen@eveleenmurphyarttherapy.ie</a>
-                                </li>
-                                <li><i class="lni lni-phone opacity-7"></i><a href="tel:0035386 337 5906">086 337
-                                        5906</a></li>
-                                <li><i class="lni lni-map-marker opacity-7"></i><a href="https://goo.gl/maps/4UoKA9zzWK8EyXp29" target="_blank">Killarney, County Kerry</a></li>
-                            </ul>
-                        </div>
-                        <div class="contact-form-sec padding-top-half">
-                            <form class="row contact-form wow fadeInUp" id="contact-form-data">
-                                <div class="col-sm-12" id="result"></div>
-                                <div class="col-12">
-                                    <input type="text" name="userName" placeholder="Name" class="form-control">
-                                    <input type="text" name="userSubject" placeholder="Contact No" class="form-control">
-                                    <input type="email" name="userEmail" placeholder="Email" class="form-control">
-                                    <textarea class="form-control" name="userMessage" rows="6"
-                                        placeholder="Type Your Message Here"></textarea>
-                                </div>
-                                <div class="col-12 mt-4">
-                                    <a href="javascript:void(0);"
-                                        class="btn btn-sec-inverse rounded-pill w-100 contact_btn"><i
-                                            class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i>SEND
-                                    </a>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- End Contact -->
+    </footer>
+    <!-- End Footer -->
 
     <!-- Start Scroll Top -->
     <div class="go-top"><i class="fas fa-angle-up"></i><i class="fas fa-angle-up"></i></div>
