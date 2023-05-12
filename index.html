@@ -27,6 +27,7 @@
     <!-- Style Sheet -->
     <link href="dark-agency/css/style.css" rel="stylesheet">
     <link href="dark-agency/css/custom.css" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -498,10 +499,11 @@
                 <div class="col-12 col-lg-9 position-relative">
                     <div class="contact-inner">
                         <div class="contact-details wow fadeInUp">
-                            <p class="para_text_custom">To contact Eveleen regarding art therapy for a child or young
+                            <p class="para_text_custom">PLEASE NOTE:<br><br>To contact Eveleen regarding art therapy for
+                                a child or young
                                 person
                                 (under 16
-                                years of age), please send an email or fill out the form below if you would like to
+                                years of age),<br> please send an email or fill out the form below if you would like to
                                 arrange an
                                 initial phone call.</p>
                             <ul>
@@ -517,23 +519,27 @@
                             </ul>
                         </div>
                         <div class="contact-form-sec padding-top-half">
-                            <!-- <form class="row contact-form wow fadeInUp" id="contact-form-data">
+                            <form class="row contact-form wow fadeInUp" id="form" onsubmit="return sendMail(this);"
+                                method="POST">
                                 <div class="col-sm-12" id="result"></div>
                                 <div class="col-12">
-                                    <input type="text" name="from_email" id="from_email" placeholder="Name" class="form-control">
-                                    <input type="text" name="phone_number" id="phone_number" placeholder="Contact No" class="form-control">
-                                    <input type="email" name="message" id="message" placeholder="Email" class="form-control">
-                                    <textarea class="form-control" name="userMessage" rows="6"
-                                        placeholder="Type Your Message Here"></textarea>
+                                    <input type="text" name="from_name" id="from_name" placeholder="Name"
+                                        class="form-control" required>
+                                    <input type="email" name="from_email" id="from_email" placeholder="Email Address"
+                                        class="form-control" required>
+                                    <input type="text" name="phone_number" id="phone_number" placeholder="Phone Number"
+                                        class="form-control" required>
+                                    <textarea class="form-control" name="message" id="message" rows="6"
+                                        placeholder="Type Your Message Here" required></textarea>
                                 </div>
                                 <div class="col-12 mt-4">
-                                    <a type="submit" href="javascript:void(0);" id="contact_btn"
-                                        class="btn btn-sec-inverse rounded-pill w-100 contact_btn"><i
-                                            class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i>SEND
-                                    </a>
+                                    <input type="submit" value="Send Message" class="primary" />
                                 </div>
-                            </form> -->
-                            <form id="form">
+                            </form>
+
+                            <!-- this is the working form - delete when not required: -->
+
+                            <!-- <form id="form">
                                 <div class="field">
                                   <label for="from_name">from_name</label>
                                   <input type="text" name="from_name" id="from_name">
@@ -552,7 +558,7 @@
                                 </div>
                               
                                 <input type="submit" id="contact_btn" value="Send Email" >
-                              </form>
+                              </form> -->
                         </div>
                     </div>
                 </div>
@@ -560,6 +566,7 @@
         </div>
     </section>
     <!-- End Contact -->
+    
     <!-- Start Footer -->
     <footer class="footer-alone">
         <div class="container">
@@ -582,8 +589,8 @@
                 <div class="col-12 text-center mt-3">
                     <p id="copyright" class="">
                         <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-                        © Eveleen Murphy Art Therapy<br>This Responsive Website was built by <a
-                            href="https://www.theweblab.ie/" target="_blank"> The Web Lab</a>.
+                        © Eveleen Murphy Art Therapy<br>Professional member of the IACAT<br><br>This Responsive Website
+                        was built by <a href="https://www.theweblab.ie/" target="_blank"> The Web Lab</a>.
                     </p>
                 </div>
             </div>
@@ -606,13 +613,13 @@
 
     <!-- CUSTOM JS -->
     <!-- <script src="vendor/js/contact_us.js"></script> -->
-    <script type="text/javascript"
-  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
         emailjs.init('user_a20oZmpNd5WwAia1HV7NH')
     </script>
     <script src="dark-agency/js/script.js"></script>
-    
+   
+
 </body>
 
 </html>

@@ -218,23 +218,46 @@ var wow = new WOW(
      The Web Lab - Custom Scripts
 ======================================*/
 
-const btn = document.getElementById('contact_btn');
+// const btn = document.getElementById('contact_btn');
 
-document.getElementById('form')
- .addEventListener('submit', function(event) {
-   event.preventDefault();
+// document.getElementById('form')
+//  .addEventListener('submit', function(event) {
+//    event.preventDefault();
 
-   btn.value = 'Sending...';
+//    btn.value = 'Sending...';
 
-   const serviceID = 'default_service';
-   const templateID = 'the_web_lab_templateID';
+//    const serviceID = 'default_service';
+//    const templateID = 'the_web_lab_templateID';
 
-   emailjs.sendForm(serviceID, templateID, this)
-    .then(() => {
-      btn.value = 'Send Email';
-      alert('Sent!');
-    }, (err) => {
-      btn.value = 'Send Email';
-      alert(JSON.stringify(err));
-    });
-});
+//    emailjs.sendForm(serviceID, templateID, this)
+//     .then(() => {
+//       btn.value = 'Send Email';
+//       alert('Sent!');
+//     }, (err) => {
+//       btn.value = 'Send Email';
+//       alert(JSON.stringify(err));
+//     });
+// });
+
+function sendMail(contact) {
+    // emailjs.send("serviceID", "templateID", {
+    emailjs.send("service_1f4pimj", "EMAT_2023", {
+        "message": form.message.value,
+        "from_name": form.from_name.value,
+        "from_email": form.from_email.value,
+        "phone_number": form.phone_number.value,
+    })
+        .then(
+            function (response) {
+                console.log("SUCCESS - Message Sent", response);
+                // alert('Message Sent!'); // the user will know that their message was sent successfully and is given feedback.
+                setTimeout("location.href = 'MessageSent.html';", 10);
+                document.getElementById("form").reset() // the form is reset after submit button is hit
+            },
+            function (error) {
+                console.log("FAILED - Message NOT Sent!", error);
+                alert(JSON.stringify(error))
+            }
+        );
+    return false; // To block from loading a new page...
+}
