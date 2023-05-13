@@ -93,6 +93,77 @@ input[type="submit"],
 input[type="submit"]:hover,
 .ReturnHomBtn:hover {
     color: #23262d;
-    background-color:#fec107;
+    background-color: #fec107;
     border: solid 1px #fec107;
 }
+
+/* Landing Page BG Video Custom CSS */
+
+.landingcontainer {
+    padding: 0 !important;
+
+}
+
+.videoBG-Row {
+    width: 100vw !important;
+    height: 100vh !important;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#videoBG {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+
+    /* position:relative;
+    z-index: -1;
+    width:100%;
+    height: 100%; */
+}
+
+.LandingHeader {
+    position: relative;
+    padding-top: 150px;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    /* margin: 15px 0; */
+    line-height: 1.2;
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.LandingHeader_p {
+    position: relative;
+    padding-top: 70px;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    margin: 15px 0;
+    line-height: 1.2;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* @media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+    body {
+        background: url('poster.jpg');
+        background-size: cover;
+    }
+} */
