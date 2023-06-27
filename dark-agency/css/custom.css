@@ -73,7 +73,8 @@
 }
 
 input[type="submit"],
-.ReturnHomBtn {
+.ReturnHomBtn,
+.FindOutMoreBtn {
     display: block;
     z-index: 11;
     color: #202020;
@@ -87,11 +88,19 @@ input[type="submit"],
     transition: .5s ease;
     font-weight: 500;
     text-transform: uppercase;
-    border-radius: 2px
+    border-radius: 2px;
+
+    border: none;
+    color: #ffffff;
+    background: transparent;
+    border-bottom: solid 1px #e6e6e6;
 }
 
+/* Contact Form SEND Button */
+
 input[type="submit"]:hover,
-.ReturnHomBtn:hover {
+.ReturnHomBtn:hover,
+.FindOutMoreBtn:hover {
     color: #23262d;
     background-color: #fec107;
     border: solid 1px #fec107;
