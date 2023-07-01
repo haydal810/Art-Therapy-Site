@@ -1807,6 +1807,7 @@ header .navbar-brand img {
     .para_text {
         text-align: justify;
         font-size: 18px;
+        color: #ffffff;
     }
     .author-avatar {
         float: none;
