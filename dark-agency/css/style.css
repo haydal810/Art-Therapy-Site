@@ -1294,7 +1294,7 @@ header .navbar-brand img {
 
 .standalone-detail .para_text{
     text-align: justify;
-    color: #ffffff;
+    color: #ffffff !important;
     margin: 0 auto;
     font-size: 16px;
     opacity: 0.7;
@@ -1318,7 +1318,7 @@ header .navbar-brand img {
     text-align: justify;
     font-size: 16px;
     margin: 0 auto;
-    color: #ffffff;
+    color: #ffffff !important;
     opacity: .7;
     font-family: 'Roboto' , sans-serif;
 }
@@ -1326,7 +1326,7 @@ header .navbar-brand img {
     text-align: justify;
     font-size: 16px;
     margin: 0 auto;
-    color: #ffffff;
+    color: #ffffff !important;
     opacity: .7;
     font-family: 'Roboto' , sans-serif;
 }
