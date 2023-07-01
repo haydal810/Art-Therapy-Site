@@ -1261,13 +1261,14 @@ header .navbar-brand img {
 
 .standalone-row .stand-img-des{
     padding-left: 30px;
+    padding-right: 30px;
     text-align: center;
 }
 
 .standalone-row:nth-child(2) .stand-img-des,
 .standalone-row:nth-child(4) .stand-img-des
 {
-    padding-left: 0;
+    padding-left: 30px;
     padding-right: 30px;
 }
 .standalone-detail .sub-heading{
@@ -1314,7 +1315,7 @@ header .navbar-brand img {
     font-family: 'Montserrat', sans-serif;
 }
 
-.standalone-area .stand-img-des .para_text{
+.standalone-area .stand-img-des .para_text {
     text-align: justify;
     font-size: 16px;
     margin: 0 auto;
@@ -1322,7 +1323,7 @@ header .navbar-brand img {
     opacity: .7;
     font-family: 'Roboto' , sans-serif;
 }
-.standalone-area .stand-img-des .para_text{
+.stand-img-des .para_text {
     text-align: justify;
     font-size: 16px;
     margin: 0 auto;
@@ -1791,8 +1792,8 @@ header .navbar-brand img {
         margin-top: 3rem;
     }
     .standalone-row .stand-img-des {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .standalone-row:nth-child(2) .stand-img-des
     
@@ -1937,12 +1938,12 @@ header .navbar-brand img {
         margin-top: 3rem;
     }
     .standalone-row .stand-img-des {
-        padding-left: 0;
+        padding-left: 30px;
         padding-right: 0;
         margin-bottom: 40px;
     }
     .standalone-row:nth-child(2) .stand-img-des {
-        padding-left: 0;
+        padding-left: 30px;
         padding-right: 0;
     }
     .standalone-row:nth-child(2){
