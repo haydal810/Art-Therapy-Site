@@ -1938,8 +1938,8 @@ header .navbar-brand img {
         margin-top: 3rem;
     }
     .standalone-row .stand-img-des {
-        padding-left: 30px;
-        padding-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
         margin-bottom: 40px;
     }
     .standalone-row:nth-child(2) .stand-img-des {
