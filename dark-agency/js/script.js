@@ -241,7 +241,7 @@ var wow = new WOW(
 
 function sendMail(contact) {
     // emailjs.send("serviceID", "templateID", {
-    emailjs.send("service_3vi52zc", "EMAT_2023", {
+    emailjs.send("service_fyfx4bd_EMAT", "EMAT_2023", {
         "message": form.message.value,
         "from_name": form.from_name.value,
         "from_email": form.from_email.value,
