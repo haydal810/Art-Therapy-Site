@@ -1268,8 +1268,8 @@ header .navbar-brand img {
 .standalone-row:nth-child(2) .stand-img-des,
 .standalone-row:nth-child(4) .stand-img-des
 {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .standalone-detail .sub-heading{
     font-size: 16px;
@@ -1943,8 +1943,8 @@ header .navbar-brand img {
         margin-bottom: 40px;
     }
     .standalone-row:nth-child(2) .stand-img-des {
-        padding-left: 30px;
-        padding-right: 0;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     .standalone-row:nth-child(2){
         margin-top: 3rem;

@@ -151,6 +151,22 @@ input[type="submit"]:hover,
     font-family: 'Montserrat', sans-serif;
 }
 
+.LandingHeader_V2 {
+    position: relative;
+    padding-top: 150px;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    /* margin: 15px 0; */
+    line-height: 1.2;
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 100;
+}
+
 .LandingHeader_p {
     position: relative;
     padding-top: 70px;
@@ -176,3 +192,20 @@ input[type="submit"]:hover,
         background-size: cover;
     }
 } */
+
+#slideshow { 
+    margin: 50px auto; 
+    /* position: relative;  */
+    width: 50%;
+    height: 50%;
+    padding: 10px; 
+    /* box-shadow: 0 0 20px rgba(0,0,0,0.4);  */
+  }
+  
+  #slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+  }
