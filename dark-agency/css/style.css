@@ -1252,7 +1252,7 @@ header .navbar-brand img {
 ====================================== */
 
 .standalone {
-    padding: 120px 0;
+    padding: 100px 0;
 }
 
 .standalone-row:not(:last-child) {
