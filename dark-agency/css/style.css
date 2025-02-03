@@ -441,18 +441,18 @@ header .header-appear .sidemenu_btn{
 }
 
 header .inner-header{
-    padding: 15px 10px;
+    padding: 35px 10px;
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     z-index: 111;
-    background-color: #eef3fa  
-    /* background-color: transparent; */
+    /* background-color: #eef3fa    */
+    background-color: transparent;
 }
 
 header .inner-header.stand {
-    position: relative;
+    /* position: relative; */
     padding-left: 25px;
 }
 
@@ -479,7 +479,8 @@ header .navbar-brand img {
 .sidemenu_btn span {
     height: 2px;
     width: 100%;
-    background: #f176a0;
+    /* background: #f176a0; */
+    background: white;
     display: block;
     margin: auto;
     transition: .5s ease;
