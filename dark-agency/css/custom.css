@@ -155,25 +155,116 @@ input[type="submit"]:hover,
     padding-top: 0px;
 }
 
-.LandingHeader_V2 {
-    position: absolute;
-    padding-top: 150px;
-    text-align: center;
-    letter-spacing: 0.3rem;
-    margin-bottom: 0;
-    text-transform: uppercase;
-    /* margin: 15px 0; */
-    line-height: 1.2;
-    font-size: 40px;
-    font-weight: 400;
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    z-index: 100;
-    /* Additional custom CSS Below: */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 250px) 
+{
+    .LandingHeader_V2 {
+        position: absolute;
+        padding-top: 150px;
+        text-align: center;
+        letter-spacing: 0.3rem;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        /* margin: 15px 0; */
+        line-height: 1.2;
+        font-size: 40px;
+        font-weight: 400;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        z-index: 100;
+        /* Additional custom CSS Below: */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    .LandingHeader_V2 {
+        position: absolute;
+        padding-top: 150px;
+        text-align: center;
+        letter-spacing: 0.3rem;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        /* margin: 15px 0; */
+        line-height: 1.2;
+        font-size: 40px;
+        font-weight: 400;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        z-index: 100;
+        /* Additional custom CSS Below: */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) 
+{
+    .LandingHeader_V2 {
+        position: absolute;
+        padding-top: 150px;
+        text-align: center;
+        letter-spacing: 0.3rem;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        /* margin: 15px 0; */
+        line-height: 1.2;
+        font-size: 40px;
+        font-weight: 400;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        z-index: 100;
+        /* Additional custom CSS Below: */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) 
+{
+    .LandingHeader_V2 {
+        position: absolute;
+        padding-top: 150px;
+        text-align: center;
+        letter-spacing: 0.3rem;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        /* margin: 15px 0; */
+        line-height: 1.2;
+        font-size: 40px;
+        font-weight: 400;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        z-index: 100;
+        /* Additional custom CSS Below: */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .LandingHeader_p {
     position: relative;
