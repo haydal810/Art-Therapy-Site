@@ -1661,8 +1661,8 @@ header .navbar-brand img {
         animation-duration: 1s;
         -webkit-animation-fill-mode: both;
         animation-fill-mode: both;
-        -webkit-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
-        box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
+        /* -webkit-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35); */
     }
 
     /* Slider Section */
