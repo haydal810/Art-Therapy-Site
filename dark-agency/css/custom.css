@@ -138,14 +138,14 @@ input[type="submit"]:hover,
 
 .LandingHeader {
     position: relative;
-    padding-top: 150px;
+    padding-top: 210px;
     text-align: center;
-    letter-spacing: 0.3rem;
+    letter-spacing: 10px;
     margin-bottom: 0;
     text-transform: uppercase;
     /* margin: 15px 0; */
     line-height: 1.2;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 400;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
@@ -156,8 +156,7 @@ input[type="submit"]:hover,
 }
 
 /* Small devices such as large phones (640px and up) */
-@media only screen and (min-width: 250px) 
-{
+@media only screen and (min-width: 250px) {
     .LandingHeader_V2 {
         position: absolute;
         padding-top: 150px;
@@ -180,8 +179,7 @@ input[type="submit"]:hover,
 }
 
 /* Medium devices such as tablets (768px and up) */
-@media only screen and (min-width: 768px) 
-{
+@media only screen and (min-width: 768px) {
     .LandingHeader_V2 {
         position: absolute;
         padding-top: 150px;
@@ -204,8 +202,7 @@ input[type="submit"]:hover,
 }
 
 /* Large devices such as laptops (1024px and up) */
-@media only screen and (min-width: 1024px) 
-{
+@media only screen and (min-width: 1024px) {
     .LandingHeader_V2 {
         position: absolute;
         padding-top: 150px;
@@ -226,9 +223,9 @@ input[type="submit"]:hover,
         transform: translate(-50%, -50%);
     }
 }
+
 /* Largest devices such as desktops (1280px and up) */
-@media only screen and (min-width: 1280px) 
-{
+@media only screen and (min-width: 1280px) {
     .LandingHeader_V2 {
         position: absolute;
         padding-top: 150px;
@@ -334,4 +331,12 @@ input[type="submit"]:hover,
     .featurette-heading {
         margin-top: 7rem;
     }
+}
+
+
+
+
+#videoBG .CustomerSlider {
+    max-width: 70vh !important;
+    height: auto;
 }

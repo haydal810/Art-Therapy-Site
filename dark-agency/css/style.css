@@ -1243,7 +1243,7 @@ header .navbar-brand img {
 }
 
 .go-top:hover i:last-child {
-    opacity: 1;
+    opacity: 1;img-area
     visibility: visible;
     top: 50%;
 }
@@ -1253,7 +1253,7 @@ header .navbar-brand img {
 ====================================== */
 
 .standalone {
-    padding: 100px 0;
+    padding: 10px 0;
 }
 
 .standalone-row:not(:last-child) {
