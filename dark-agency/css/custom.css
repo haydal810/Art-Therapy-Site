@@ -129,6 +129,8 @@ input[type="submit"]:hover,
     height: 100%;
     object-fit: cover;
     opacity: 0.6;
+    overflow: hidden;
+    
 
     /* position:relative;
     z-index: -1;
@@ -304,7 +306,7 @@ input[type="submit"]:hover,
     z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
+/* Declare heights because of positioning of  element */
 .carousel-item {
     height: 32rem;
 }
