@@ -337,6 +337,6 @@ input[type="submit"]:hover,
 
 
 #videoBG .CustomerSlider {
-    max-width: 70vh !important;
+    /* max-width: 70vh !important; */
     height: auto;
 }
