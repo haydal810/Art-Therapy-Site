@@ -3,7 +3,7 @@
 #copyright {
 
     letter-spacing: 0.2rem;
-    color: #fff;
+    color: black;
     font-size: 12px;
     opacity: 0.75;
     margin-bottom: 0;
@@ -14,7 +14,7 @@
     .para_text_custom {
         font-size: 16px;
         margin: 0 auto;
-        color: #ffffff;
+        color: black;
         opacity: .7;
         font-family: 'Roboto', sans-serif;
         text-align: center;
@@ -80,7 +80,7 @@ input[type="submit"],
     color: #202020;
     position: relative;
     padding: 14px 30px;
-    background-color: #ffffff;
+    background-color: #f176a0;
     border: solid 1px #ffffff;
     display: inline-block;
     font-size: 16px;
@@ -92,7 +92,7 @@ input[type="submit"],
 
     border: none;
     color: #ffffff;
-    background: transparent;
+    /* background: transparent; */
     border-bottom: solid 1px #e6e6e6;
 }
 
@@ -101,7 +101,7 @@ input[type="submit"],
 input[type="submit"]:hover,
 .ReturnHomBtn:hover,
 .FindOutMoreBtn:hover {
-    color: #23262d;
+    color: white;
     background-color: #fec107;
     border: solid 1px #fec107;
 }
@@ -115,7 +115,7 @@ input[type="submit"]:hover,
 
 .videoBG-Row {
     width: 100vw !important;
-    height: 100vh !important;
+    height: 80vh !important;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -130,7 +130,7 @@ input[type="submit"]:hover,
     object-fit: cover;
     opacity: 0.6;
     overflow: hidden;
-    
+
 
     /* position:relative;
     z-index: -1;
@@ -341,4 +341,9 @@ input[type="submit"]:hover,
 #videoBG .CustomerSlider {
     /* max-width: 70vh !important; */
     height: auto;
+}
+
+.text-white 
+{
+    color: #313638 !important;
 }

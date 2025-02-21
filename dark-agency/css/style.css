@@ -42,7 +42,7 @@ html{
 body{
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
-    background-color: #23262d;
+    background-color: white;
 }
 
 .form-control:focus{
@@ -111,13 +111,13 @@ a:focus {color: inherit}
 .heading{
     font-size: 70px;
     font-weight: 400;
-    color: #ffffff;
+    color: black;
     font-family: 'Montserrat', sans-serif;
 }
 
 .text{
     font-size: 16px;
-    color: #ffffff;
+    color: black;
     font-weight: 300;
 }
 
@@ -441,7 +441,7 @@ header .header-appear .sidemenu_btn{
 }
 
 header .inner-header{
-    padding: 35px 10px;
+    padding: 1px 1px;
     position: absolute;
     left: 0;
     right: 0;
@@ -453,7 +453,12 @@ header .inner-header{
 
 header .inner-header.stand {
     /* position: relative; */
-    padding-left: 25px;
+    padding-left: 10px;
+}
+
+header .inner-header.stand.subpagesHeader {
+    position: relative !important;
+    padding-left: 10px;
 }
 
 header .navbar-brand{
@@ -479,8 +484,8 @@ header .navbar-brand img {
 .sidemenu_btn span {
     height: 2px;
     width: 100%;
-    /* background: #f176a0; */
-    background: white;
+    background: #f176a0;
+    /* background: white; */
     display: block;
     margin: auto;
     transition: .5s ease;
@@ -1043,13 +1048,13 @@ header .navbar-brand img {
     display: inline-block;
     margin-right: 50px;
     font-size: 18px;
-    color: #ffffff;
+    color: black;
     font-weight: 300;
 }
 
 .contact-sec .contact-inner .contact-details ul li i{
     opacity: 1;
-    color: #ffffff;
+    color: black;
     font-size: 26px;
     margin-right: 10px;
 }
@@ -1067,16 +1072,16 @@ header .navbar-brand img {
 
 .contact-sec .contact-form input{
     border: none;
-    color: #ffffff;
+    color: black;
     background: transparent;
-    border-bottom: solid 1px #e6e6e6;
+    border-bottom: solid 1px black;
 }
 
 .contact-sec .contact-form textarea{
     border: none;
-    color: #ffffff;
+    color: black;
     background: transparent;
-    border-bottom: solid 1px #e6e6e6;
+    border-bottom: solid 1px black;
 }
 
 .contact-sec .btn-main-inverse{
@@ -1085,15 +1090,15 @@ header .navbar-brand img {
 }
 
 .contact-sec ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #ffffff;
+    color: black;
 }
 
 .contact-sec :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #ffffff;
+    color: black;
 }
 
 .contact-sec ::-ms-input-placeholder { /* Microsoft Edge */
-    color: #ffffff;
+    color: black;
 }
 
 /* ===================================
@@ -1289,14 +1294,14 @@ header .navbar-brand img {
     line-height: 1.2;
     font-size: 70px;
     font-weight: 400;
-    color: #ffffff;
+    color: black;
     /* text-transform: lowercase; */
     font-family: 'Montserrat', sans-serif;
 }
 
 .standalone-detail .para_text{
     text-align: justify;
-    color: #ffffff !important;
+    color: black !important;
     margin: 0 auto;
     font-size: 16px;
     opacity: 0.7;
@@ -1320,7 +1325,7 @@ header .navbar-brand img {
     text-align: justify;
     font-size: 16px;
     margin: 0 auto;
-    color: #ffffff !important;
+    color: black !important;
     opacity: .7;
     font-family: 'Roboto' , sans-serif;
 }
@@ -1328,7 +1333,7 @@ header .navbar-brand img {
     text-align: justify;
     font-size: 16px;
     margin: 0 auto;
-    color: #ffffff !important;
+    color: black !important;
     opacity: .7;
     font-family: 'Roboto' , sans-serif;
 }
@@ -1809,7 +1814,7 @@ header .navbar-brand img {
     .para_text {
         text-align: justify;
         font-size: 18px;
-        color: #ffffff;
+        color: black;
     }
     .author-avatar {
         float: none;
@@ -1839,7 +1844,7 @@ header .navbar-brand img {
     /* Nav-Bar */
     header .navbar-brand img{
         /* max-width: 50%; */
-        max-width: 35%; /* David edit */
+        max-width: 45%; /* David edit */
         margin: auto;
     }
     header .btn-main {
