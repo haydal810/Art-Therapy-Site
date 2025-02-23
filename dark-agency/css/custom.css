@@ -115,10 +115,10 @@ input[type="submit"]:hover,
 
 .videoBG-Row {
     width: 100vw !important;
-    height: 80vh !important;
+    height: 100vh !important;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0px !important;
 }
 
 
@@ -130,6 +130,7 @@ input[type="submit"]:hover,
     object-fit: cover;
     opacity: 0.6;
     overflow: hidden;
+    padding: 0px !important;
 
 
     /* position:relative;
@@ -138,8 +139,15 @@ input[type="submit"]:hover,
     height: 100%; */
 }
 
+#videoBG img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .LandingHeader {
-    position: relative;
+    position: absolute;
     padding-top: 210px;
     text-align: center;
     letter-spacing: 10px;
@@ -149,8 +157,17 @@ input[type="submit"]:hover,
     line-height: 1.2;
     font-size: 25px;
     font-weight: 400;
-    color: #ffffff;
+    color: white;
     font-family: 'Montserrat', sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Adjust as needed */
+    font-size: 35px;
+    width: 100%;
+    z-index: 999;
+    font-weight: bold;
 }
 
 .LandingSection {
@@ -346,4 +363,11 @@ input[type="submit"]:hover,
 .text-white 
 {
     color: #313638 !important;
+}
+
+
+
+.test_img 
+{
+
 }
