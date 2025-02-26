@@ -484,8 +484,8 @@ header .navbar-brand img {
 .sidemenu_btn span {
     height: 2px;
     width: 100%;
-    background: #f176a0;
-    /* background: white; */
+    /* background: #f176a0; */
+    background: white;
     display: block;
     margin: auto;
     transition: .5s ease;
